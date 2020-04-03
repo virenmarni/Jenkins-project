@@ -1,5 +1,7 @@
 package com.edureka;
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -11,8 +13,24 @@ public class HelloWebApp extends HttpServlet {
 
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
 	         throws ServletException, IOException {
-            resp.setContentType("text/plain");
-            resp.getWriter().write("Hello from Edureka !\n\n\nDemo Java Project for Edureka DevOps certification from Prashant Beniwal v1..\n\n");
+        	
+        	PrintWriter out = resp.getWriter();
+        	resp.setContentType("text/html");
+        	
+        	out.println("<html>");
+        	out.println("<body bgcolor=\"Aqua\">");
+        	out.println("<h1>Hello from Edureka</h1>");
+        	
+        	out.println("<h3>Demo Java Project for Edureka DevOps certification from Prashant Beniwal</h3>");
+        	
+        	out.println("<p>A Random Number: <strong>" + Math.random() + "</strong></p>");
+           	
+        	out.println("</body>");
+        	out.println("</html>");
+            
+            //resp.getWriter().write("Hello from Edureka !\n\n\n v1..\n\n");
+       
+        
         }
 
 

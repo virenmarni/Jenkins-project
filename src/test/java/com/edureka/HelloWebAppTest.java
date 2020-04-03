@@ -40,11 +40,12 @@ public class HelloWebAppTest extends Mockito{
         assertEquals("Problem with Sub function:", 1, k);
 
     }
-
+    
+    @Test
     public void testMul() throws Exception {
 
         int k= new HelloWebApp().mul(8,6);
-        assertEquals("Problem with Add function:", 48, k);
+        assertEquals("Problem with Mul function:", 48, k);
 
     }
 
