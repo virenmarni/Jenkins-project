@@ -19,7 +19,7 @@ public class HelloWebApp extends HttpServlet {
         	
         	out.println("<html>");
         	out.println("<body bgcolor=\"Aqua\">");
-        	out.println("<h1>Hello from Edureka</h1>");
+        	out.println("<h1>Hello fom Edureka</h1>");
         	
         	out.println("<h3>Demo Java Project for Edureka DevOps certification from Prashant Beniwal</h3>");
         	
