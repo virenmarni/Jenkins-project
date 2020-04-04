@@ -15,7 +15,7 @@ public class HelloWebApp extends HttpServlet {
 	         throws ServletException, IOException {
         	
         	PrintWriter out = resp.getWriter();
-        	resp.setContentType("text/html")
+        	resp.setContentType("text/html");
         	
         	out.println("<html>");
         	out.println("<body bgcolor=\"Aqua\">");
@@ -26,10 +26,7 @@ public class HelloWebApp extends HttpServlet {
         	out.println("<p>A Random Number: <strong>" + Math.random() + "</strong></p>");
            	
         	out.println("</body>");
-        	out.println("</html>");
-            
-            //resp.getWriter().write("Hello from Edureka !\n\n\n v1..\n\n");
-       
+        	out.println("</html>");   
         
         }
 
