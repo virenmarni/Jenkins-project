@@ -32,8 +32,7 @@ public class HelloWebApp extends HttpServlet {
 
 
         public int add(int a, int b) {
-            int i;
-            return a + b ;
+            return a + b +1 ;
         }
 
 	public int sub(int a, int b) {
