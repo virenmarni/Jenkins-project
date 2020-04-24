@@ -23,7 +23,7 @@ public class HelloWebApp extends HttpServlet {
         	
         	out.println("<h3>Demo Java Project for Edureka DevOps certification from Prashant Beniwal</h3>");
         	
-        	out.println("<p>A Random Number v1 : <strong>" + Math.random() + "</strong></p>");
+        	out.println("<p>A Random Number v2 : <strong>" + Math.random() + "</strong></p>");
            	
         	out.println("</body>");
         	out.println("</html>");   
