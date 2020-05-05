@@ -15,4 +15,4 @@ phases:
     - mv target/helloedureka .
 artifacts:
   files:
-    - target/helloedureka.war
+    - helloedureka/**/*
