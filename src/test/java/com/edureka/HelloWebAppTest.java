@@ -41,7 +41,6 @@ public class HelloWebAppTest extends Mockito{
 
     }
     
-    @Test
     public void testMul() throws Exception {
 
         int k= new HelloWebApp().mul(8,6);
