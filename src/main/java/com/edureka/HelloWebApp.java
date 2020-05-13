@@ -39,6 +39,7 @@ public class HelloWebApp extends HttpServlet {
             return a - b;
         }
 	public int mul(int a, int b) {
+	    int mul = a * b;
             return a * b;
         }
 }
