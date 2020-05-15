@@ -60,6 +60,14 @@
             <totalBranchRate>100</totalBranchRate>
           </check>
         </configuration>
+        <executions>
+          <execution>
+            <phase>install</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
