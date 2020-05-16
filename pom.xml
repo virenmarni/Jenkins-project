@@ -5,7 +5,7 @@
   <artifactId>helloedureka</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>HelloWorld Edureka Project</name>
+  <name>HelloWorld Edureka </name>
 
   <dependencies>
     <dependency>
