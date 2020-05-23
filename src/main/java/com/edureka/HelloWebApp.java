@@ -12,7 +12,7 @@ public class HelloWebApp extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
-	         throws ServletException, IOException 
+	         throws ServletException, IOException {
         	
         	PrintWriter out = resp.getWriter();
         	resp.setContentType("text/html");
