@@ -5,6 +5,10 @@
     contport: 8080
   become: true
   tasks:
+    - name: Install java
+      apt:  update_cache=yes name=openjdk-8-jdk state=present
+    - name: Install maven
+      apt:  name=maven state=latest
     - name: Update apt repo
       apt:  update_cache=yes name=docker.io state=present
     - name: Clone Git repo
