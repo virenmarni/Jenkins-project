@@ -1,3 +1,3 @@
 FROM pbeniwal/tomcat
 
-COPY helloedureka.war /usr/local/tomcat/webapps/
+COPY target/helloedureka.war /usr/local/tomcat/webapps/
